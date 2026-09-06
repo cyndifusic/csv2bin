@@ -50,7 +50,7 @@ putting those files back into the game requires a wii homebrew app called [riivo
 
 - Shooting Range (DucCanParam.bin)
 
-this is all subject to change in new versions
+this is all subject to change in new versions<br>
 for tanks files use [blitzkrieg tools]
 
 ## ai disclosure
