@@ -24,34 +24,40 @@ click the scary "code" button up at the top and download all the source code. th
 
 ## what is this "wii play filesystem" you speak of
 
-if all you wanna do is browse the files and you already have a wii play .iso/.wbfs its actually pretty trivial. you just need to extract the files with debug features enabled in [dolphin] (look up "dolphin emulator extract filesystem" or something like that) and throw the resulting .carc archives into a program called [brawlcrate] so you can see whats in them.
+if all you wanna do is browse the files and you already have a wii play .iso/.wbfs its actually pretty trivial. you just need to extract the files with debug features enabled in [dolphin](https://dolphin-emu.org/) (look up "dolphin emulator extract filesystem" or something like that) and throw the resulting .carc archives into a program called [brawlcrate](https://github.com/soopercool101/BrawlCrate) so you can see whats in them.
 
-putting those files back into the game requires a wii homebrew app called [riivolution] and im not going to explain that in this readme but i think the first video in [bigkitty's tanks modding tutorial series] describes the process
+putting those files back into the game requires a wii homebrew app called [riivolution](https://www.wiibrew.org/wiki/Riivolution) and im not going to explain that in this readme but i think theres some parts of [bigkitty's tanks modding tutorial series](https://www.youtube.com/playlist?list=PLB9v12FT0JXj1Hkpd04Y79TbhGk3hkocu) that describe the process
 
 ## how much of the game does this encompass
 
 **fully implemented:**
 
 - Find Mii 1P (wanted_1p_leveltable.bin)
-- Find Mii 2P (wanted_2p_leveltable.bin)
 - Table Tennis (leveltable.bin)
 - Table Tennis (rallyleveluptable.bin)
 
-**implemented with some parameters that are unknown or need more of an explanation:**
+**implemented with some unknown parameters:**
 
 - Shooting Range (DucBalloonParam.bin)
 - Shooting Range (DucCircleMatoParam.bin)
 - Shooting Range (DucClayParam.bin)
+
+**i dont have time yet:**
+
+- Find Mii 2P (wanted_2p_leveltable.bin)
+- Shooting Range (DucCanParam.bin)
 - Shooting Range (DucDuckParam.bin)
 - Shooting Range (DucUFOParam.bin)
 - Pose Mii (BomQuestionParam.bin)
 
-**not implemented because the file structure isn't documented and i don't have time:**
-
-- Shooting Range (DucCanParam.bin)
-
 this is all subject to change in new versions
-for tanks files use [blitzkrieg tools]
+for tanks files use [blitzkrieg tools](https://jimkatz.github.io/wiimoddingtools.html)
+
+## file documentation
+
+https://kiwis.dev/docs/pack/RPWlyScene/
+https://kiwis.dev/docs/pack/RPPnpScene/
+https://kiwis.dev/docs/pack/RPDucScene/
 
 ## ai disclosure
 
